@@ -1,0 +1,53 @@
+h1 {
+  font-family: "Lucida Bright", sans-serif;
+  font-weight: 800;
+  color: DimGray;
+}
+
+body {
+   background-color: #49a6ed;
+   background-image: repeating-linear-gradient(90deg, #397eb2, #49a6ed, #397eb2);
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.fa {
+    padding: 20px;
+    margin: 10px 0 5px 5px;
+    font-size: 30px;
+    width: 27px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-medium {
+    background: #000000;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #007BB5;
+  color: white;
+}
+
+.fa-github {
+  background: #24292E;
+  color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
